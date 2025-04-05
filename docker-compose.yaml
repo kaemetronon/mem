@@ -2,7 +2,7 @@ version: "3"
 services:
 
   mem:
-    build: mem/.
+    build: .
     container_name: mem
     image: mem
     restart: on-failure
