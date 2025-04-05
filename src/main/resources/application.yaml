@@ -1,0 +1,15 @@
+bot:
+  username: ${USERNAME}
+  token: ${BOT_TOKEN}
+ya:
+  iam-token: ${YA_IAM_TOKEN}
+  host: https://llm.api.cloud.yandex.net/foundationModels/v1/completion
+  folder-id: ${YA_FOLDER_ID}
+
+  tokens-limit: 300000
+#    model: /yandexgpt-lite/latest
+  model: /yandexgpt/rc
+#  tokens-limit: 80000
+#  model: /yandexgpt-32k/latest
+#  model: /llama/latest
+  token: abc
